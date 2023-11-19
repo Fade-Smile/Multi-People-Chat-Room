@@ -11,7 +11,7 @@ import threading
 
 
 class ChatRoomClient(wx.Frame):
-    def __init__(self, c_name):   
+    def __init__(self, c_name):
         wx.Frame.__init__(self,  
                           None,  
                           id=101,  
